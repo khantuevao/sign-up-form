@@ -1,3 +1,12 @@
+@font-face {
+  font-family: darling;
+  src: url(./Darling.ttf);
+}
+
+body {
+
+}
+
 .main-left {
 
 }
@@ -31,5 +40,5 @@
 }
 
 .right-bottom {
-  
+
 }

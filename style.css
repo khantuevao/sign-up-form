@@ -55,6 +55,8 @@ body {
   width: max(16rem, 60%);
   display: flex;
   flex-direction: column;
+  color: whitesmoke;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .italic-span {
@@ -64,19 +66,18 @@ body {
 .right-top {
   border: 1px solid white;
   height: 40vh;
-  color: white;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   padding: 5%;
   padding-bottom: 0;
+  padding-right: max(20%, 4rem);
   font-size: min(1.6rem, 4vw);
-  font-family: 'Roboto', sans-serif;
+  font-weight: ;
 }
 
 .right-middle {
   border: 1px solid white;
-  color: white;
   font-size: min(1.6rem, 4vw);
   padding: 5%;
 }
@@ -113,7 +114,6 @@ label:first-child {
 
 .right-bottom {
   border: 1px solid white;
-  color: white;
   padding: 5%;
   font-size: 1.2rem;
 }

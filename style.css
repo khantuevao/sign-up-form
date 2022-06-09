@@ -109,6 +109,13 @@ input {
   color: grey;
 }
 
+input:not(:placeholder-shown):not(:focus):valid {
+  border-color: rgb(103, 230, 103);
+}
+input:not(:placeholder-shown):not(:focus):invalid {
+  border-color: rgb(235, 82, 82);
+}
+
 label {
   font-size: 0.8rem;
   color: grey;

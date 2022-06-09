@@ -29,27 +29,27 @@
           <legend>Let's do this!</legend>
           <div class="containers">
             <label for="first-name">FIRST NAME</label>
-            <input type="text" name="first-name" id="first-name">
+            <input type="text" pattern="(?=.*[a-z])(?=.*[A-Z]).{2,}" min="2" maxlength="20" name="first-name" id="first-name" placeholder=" ">
           </div>
           <div class="containers">
             <label for="last-name">LAST NAME</label>
-            <input type="text" name="last-name" id="last-name">
+            <input type="text" pattern="(?=.*[a-z])(?=.*[A-Z]).{2,}" maxlength="20" name="last-name" id="last-name" min="2" maxlength="20" placeholder=" ">
           </div>
           <div class="containers">
-            <label for="email">EMAIL</label>
-            <input type="email" name="email" id="email" required>
+            <label for="email">EMAIL *</label>
+            <input type="email" name="email" id="email" required placeholder=" ">
           </div>
           <div class="containers">
             <label for="phone-number">PHONE NUMBER</label>
-            <input type="tel" name="phone-number" id="phone-number">
+            <input type="tel" minlength="10" maxlength="10" name="phone-number" id="phone-number" placeholder=" ">
           </div>
           <div class="containers">
-            <label for="password">PASSWORD</label>
-            <input pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" type="password" name="password" id="password" required>
+            <label for="password">PASSWORD *</label>
+            <input pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" type="password" name="password" id="password" required placeholder=" ">
           </div>
           <div class="containers">
-            <label for="confirm-password">CONFIRM PASSWORD</label>
-            <input type="password" name="confirm-password" id="confirm-password" required>
+            <label for="confirm-password">CONFIRM PASSWORD *</label>
+            <input type="password" name="confirm-password" id="confirm-password" required placeholder=" ">
           </div>
     </div>
     <div class="right-bottom">

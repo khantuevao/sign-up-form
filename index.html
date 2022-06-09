@@ -37,7 +37,7 @@
           </div>
           <div class="containers">
             <label for="email">EMAIL</label>
-            <input type="email" name="email" id="email">
+            <input type="email" name="email" id="email" required>
           </div>
           <div class="containers">
             <label for="phone-number">PHONE NUMBER</label>
@@ -45,15 +45,15 @@
           </div>
           <div class="containers">
             <label for="password">PASSWORD</label>
-            <input type="password" name="password" id="password">
+            <input pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" type="password" name="password" id="password" required>
           </div>
           <div class="containers">
             <label for="confirm-password">CONFIRM PASSWORD</label>
-            <input type="password" name="confirm-password" id="confirm-password">
+            <input type="password" name="confirm-password" id="confirm-password" required>
           </div>
     </div>
     <div class="right-bottom">
-      <button>Create Account</button>
+      <button type="submit">Create Account</button>
       <p>Already have an account? <a href="">Log in</a></p>
     </div>
   </div>

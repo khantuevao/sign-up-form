@@ -75,6 +75,23 @@ body {
 .right-middle {
   border: 1px solid white;
   height: 30%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+}
+
+.div-one {
+  display: flex;
+}
+
+.one-piece {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 0.8rem;
 }
 
 .right-bottom {

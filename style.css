@@ -12,8 +12,11 @@ body {
 }
 
 .main-left {
-  border: 1px solid white;
-  width: max(22rem, 40%);
+  width: max(16rem, 40%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
 }
 
 .background-img {
@@ -23,15 +26,28 @@ body {
 }
 
 .transparent {
-
+  background-color: black;
+  opacity: 70%;
+  height: 6rem;
+  width: 100%;
+  position: absolute;
+  top: 14rem;
 }
 
 .logo-text {
-
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 4rem;
+  font-family: darling, sans-serif;
+  color: white;
+  position: absolute;
+  top: 14rem;
 }
 
 .logo {
-
+  width: 4rem;
+  margin-top: 0.5rem;
 }
 
 .main-right {

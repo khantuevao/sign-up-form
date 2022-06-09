@@ -45,11 +45,11 @@
           </div>
           <div class="containers">
             <label for="password">PASSWORD *</label>
-            <input pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" type="password" name="password" id="password" required placeholder=" ">
+            <input pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" type="password" name="password" id="password" required placeholder=" " onchange="checkPassword()">
           </div>
           <div class="containers">
-            <label for="confirm-password">CONFIRM PASSWORD *</label>
-            <input type="password" name="confirm-password" id="confirm-password" required placeholder=" ">
+            <label for="confirm">CONFIRM PASSWORD *</label>
+            <input type="password" name="confirm" id="confirm" required placeholder=" " onchange="checkPassword()">
           </div>
     </div>
     <div class="right-bottom">

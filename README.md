@@ -1,2 +1,3 @@
-# sign-up-form
-intermediate html&amp;css
+# live preview
+
+https://khantuevao.github.io/sign-up-form/
